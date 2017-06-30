@@ -1,2 +1,3 @@
-const angular = require('angular');
-angular.module('TunrApp', []);
+const angular = require("angular");
+angular.module("TunrApp", []);
+console.log("Hello");

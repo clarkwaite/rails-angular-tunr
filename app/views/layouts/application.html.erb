@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="TunrApp">
   <head>
     <title>TunrAngRails</title>
     <%= csrf_meta_tags %>
@@ -9,6 +9,7 @@
   </head>
 
   <body>
+  <tunr-artists></tunr-artists>
     <%= yield %>
   </body>
 </html>
